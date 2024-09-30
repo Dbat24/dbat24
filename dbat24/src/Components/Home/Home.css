@@ -1,0 +1,98 @@
+.home {
+  height: 400px;
+  color: #fff;
+}
+
+.home-content {
+  /* margin-left: 13.5rem; */
+  padding: 10px;
+  margin-top: 8rem;
+}
+.home-content h3 {
+  color: yellowgreen;
+}
+
+.home-btn {
+  display: flex;
+}
+
+.hire-btn {
+  /* background-color:rgb(3, 54, 75); */
+  background-color:#4CAF50;
+  text-align: center;
+  width: 180px;
+  padding: 10px;
+  border-radius: 90px;
+  cursor: pointer;
+  margin-top: 10px;
+  color: #fff;
+  border: 2px solid #FFFFFF;
+  font-size: 17px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.hire-btn:hover {
+  background-color: rgb(97, 95, 95);
+  width: 250px;
+  transition-duration: 1s;
+}
+
+.resume-btn {
+  background-color: rgb(41, 41, 241);
+  text-align: center;
+  width: 180px;
+  padding: 10px;
+  border-radius: 90px;
+  cursor: pointer;
+  margin-top: 10px;
+  margin-left: 10px;
+  border: 2px solid  #FFFFFF;
+  font-size: 17px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.resume-btn:hover {
+  background-color: rgb(97, 95, 95);
+  width: 250px;
+  transition-duration: 1s;
+}
+
+.resume-btn a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.theme-change {
+  justify-content: center;
+  height: 40px;
+  width: 40px;
+  background-color: rgb(41, 41, 241);
+  right: 0;
+  margin-left: 10px;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 50px;
+  position: fixed;
+  top: 150;
+  margin-top: 250px;
+  border-radius: 5px;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.sunny-icon {
+  animation: rotation infinite 5s linear;
+}
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (max-width: 700px) {
+  .theme-change {
+    display: none;
+  }
+}
