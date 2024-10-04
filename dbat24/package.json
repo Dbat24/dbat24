@@ -2,8 +2,8 @@
   "name": "dbat24",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://Dbat24.github.io/dbat24",
   "dependencies": {
-    "homepage": "https://Dbat24.github.io/dbat24",
     "@emailjs/browser": "^4.4.1",
     "@emotion/react": "^11.13.0",
     "@testing-library/jest-dom": "^5.17.0",
