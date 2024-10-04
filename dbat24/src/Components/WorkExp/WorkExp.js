@@ -11,7 +11,7 @@ const WorkExp = () => {
   const data = [
     {
       companyname: "Dbat24",
-      position: "MERN Stack Developer",
+      position: "Full-Stack Developer",
       des: "Secret App: I engineered a secure anonymous secret-sharing platform using React for a dynamic user interface, along with Node.js, Express, and MongoDB for robust backend functionality and data management. This application prioritizes user privacy and security, providing a safe space for individuals to share their secrets.",
 
       year: "2024-till date",
@@ -85,7 +85,7 @@ const WorkExp = () => {
     },
     {
       companyname: "Mirrabelle",
-      position: "Full Stack Developer",
+      position: "MERN-Stack Developer",
       des: "Blog App: I built a feature-rich blogging platform that empowers users to create, edit, and share blog posts. Using React for a responsive user interface, I integrated Node.js, Express, and MongoDB to manage user authentication, content storage, and seamless content delivery. This project allowed me to enhance my skills in managing complex data structures and creating a user-friendly experience.",
       year: "2021-2022",
 

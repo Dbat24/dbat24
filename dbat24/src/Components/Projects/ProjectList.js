@@ -2,12 +2,14 @@ import React, { useState } from "react";
 import { FcExpand, FcCollapse } from "react-icons/fc";
 import "./Project.css";
 
-const ProjectList = ({ name, des, Projectlink, techStackUsed }) => {
+const ProjectList = ({ name, des, projectlink, techStackUsed }) => {
   const [show, setShow] = useState(false);
   const handleClick = () => {
     setShow(!show);
   };
 
+
+  
   const colors = [
     "#1F77B4",
     "#FF7F0E",
@@ -46,7 +48,7 @@ const ProjectList = ({ name, des, Projectlink, techStackUsed }) => {
       </div>
 
       <div className="live-demo-button">
-        <a target="_" href={"projectlink"}>
+        <a target="_" href={projectlink}>
           Live Demo
         </a>
       </div>
