@@ -45,9 +45,9 @@ const Project = () => {
       ],
     },
     {
-      name: "Mern Stack Streaming Video",
+      name: "World Capital Quiz App",
       des: "The Video Player App, developed using JavaScript, offers smooth video playback with essential controls like play, pause, fast forward, and volume adjustment. It features a progress bar for easy navigation and supports full-screen mode. Designed with a responsive interface, the app ensures consistent performance on both desktop and mobile devices.",
-      projectlink: "https://google.com",
+      projectlink: "https://world-capital-quiz-app.onrender.com",
       techStackUsed: [
         { techStack: "Node js" },
         { techStack: "react js" },
@@ -55,9 +55,9 @@ const Project = () => {
       ],
     },
     {
-      name: "Mern Stack Streaming Video",
+      name: "Travel Tracker App",
       des: "The Video Player App, developed using JavaScript, offers smooth video playback with essential controls like play, pause, fast forward, and volume adjustment. It features a progress bar for easy navigation and supports full-screen mode. Designed with a responsive interface, the app ensures consistent performance on both desktop and mobile devices.",
-      projectlink: "https://google.com",
+      projectlink: "https://travel-tracker-app.onrender.com",
       techStackUsed: [
         { techStack: "Node js" },
         { techStack: "react js" },
