@@ -17,7 +17,7 @@ const Project = () => {
     {
       name: "Image Gallery App",
       des: "The Video Player App, developed using JavaScript, offers smooth video playback with essential controls like play, pause, fast forward, and volume adjustment. It features a progress bar for easy navigation and supports full-screen mode. Designed with a responsive interface, the app ensures consistent performance on both desktop and mobile devices.",
-      projectlink: "https://batstock-8a9fc.web.app/",
+      projectlink: "https://batstock-8a9fc.web.app",  
       techStackUsed: [
         { techStack: "Node js" },
         { techStack: "react js" },
