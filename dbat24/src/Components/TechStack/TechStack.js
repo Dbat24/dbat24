@@ -16,6 +16,9 @@ const TechStack = () => {
       name: "React js",
     },
     {
+      name: "Next.js",
+    },
+    {
       name: "JavaScript",
     },
     {
@@ -32,9 +35,6 @@ const TechStack = () => {
     },
     {
       name: "Postman",
-    },
-    {
-      name: "WordPress",
     },
     {
       name: "BootStrap",

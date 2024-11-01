@@ -11,16 +11,68 @@ const WorkExp = () => {
   const data = [
     {
       companyname: "Dbat24",
+      position: "MERN-Stack Developer",
+      des: "Blog App: I built a feature-rich blogging platform that empowers users to create, edit, and share blog posts. Using React for a responsive user interface, I integrated Node.js, Express, and MongoDB to manage user authentication, content storage, and seamless content delivery. This project allowed me to enhance my skills in managing complex data structures and creating a user-friendly experience.",
+      year: "2021-2022",
+
+      techskills: [
+        { techname: "Node JS" },
+        { techname: "Express JS" },
+        { techname: "React JS" },
+        { techname: "MangoDB" },
+      ],
+    },
+    {
+      companyname: "Dbat24",
+      position: "Frontend Developer",
+      des: "As a Next.js Developer, I developed responsive, high-performance web applications with a focus on server-side rendering and optimized client experiences. I collaborated with cross-functional teams to deliver scalable, SEO-friendly solutions, utilizing React.js and Next.js features like dynamic routing and API integration. Proficient in Git, Tailwind CSS, and cloud deployment.",
+      year: "2021-2022",
+
+      techskills: [
+        { techname: "Next JS" },
+        { techname: "React JS" },
+        { techname: "TAILWIND CSS" },
+        { techname: "JAVASCRIPT" },
+      ],
+    },
+    {
+      companyname: "Mirrabelle",
+      position: "Full Stack Developer",
+      des: "Image Gallery: I designed a user-friendly image storage solution that allows users to upload and organize their photos for future use. Utilizing React for the frontend, I integrated Firebase to provide backend services, including real-time data storage, image hosting, and user authentication, ensuring a seamless experience for users.",
+      year: "2022",
+
+      techskills: [
+        { techname: "React" },
+        { techname: "FireStore" },
+        { techname: "Fire Auth" },
+        { techname: "Firebase hosting" },
+      ],
+    },
+    {
+      companyname: "Batech",
       position: "Full-Stack Developer",
-      des: "Secret App: I engineered a secure anonymous secret-sharing platform using React for a dynamic user interface, along with Node.js, Express, and MongoDB for robust backend functionality and data management. This application prioritizes user privacy and security, providing a safe space for individuals to share their secrets.",
+      des: "Secret App: I engineered a secure anonymous secret-sharing platform using Ejs for a dynamic user interface, along with Node.js, Express, and MongoDB for robust backend functionality and data management. This application prioritizes user privacy and security, providing a safe space for individuals to share their secrets.",
 
       year: "2024-till date",
 
       techskills: [
-        {techname: "React JS"},
+        { techname: "Ejs" },
         { techname: "Node" },
         { techname: "Express" },
         { techname: "MongoDB" },
+      ],
+    },
+    {
+      companyname: "Zyeebis Place",
+      position: "Full Stack Developer",
+      des: "World Capital Quiz: I developed an engaging interactive quiz application that challenges users to test their knowledge of world capitals. This project utilized EJS for dynamic content rendering and was built on a foundation of Node.js, Express, and Postgres, enabling efficient data management and providing users with immediate feedback on their quiz performance.",
+      year: "2021-2022",
+
+      techskills: [
+        { techname: "EJS" },
+        { techname: "Express JS" },
+        { techname: "React JS" },
+        { techname: "Postgres" },
       ],
     },
     {
@@ -30,71 +82,9 @@ const WorkExp = () => {
       year: "2023",
 
       techskills: [
-        {
-          techname: "Ejs",
-        },
+        { techname: "Ejs" },
         { techname: "Node" },
         { techname: "Express" },
-        { techname: "MangoDB" },
-      ],
-    },
-    {
-      companyname: "Dbat24",
-      position: "Full Stack Developer",
-      des: "Image Gallery: I designed a user-friendly image storage solution that allows users to upload and organize their photos for future use. Utilizing React for the frontend, I integrated Firebase to provide backend services, including real-time data storage, image hosting, and user authentication, ensuring a seamless experience for users.",
-      year: "2022",
-
-      techskills: [
-        {
-          techname: "React",
-        },
-        { techname: "FireStore" },
-        { techname: "Fire Auth" },
-        { techname: "Firebase hosting" },
-      ],
-    },
-    {
-      companyname: "Dbat24",
-      position: "Full Stack Developer",
-      des: "Task Manager: I developed an intuitive productivity app that assists users in managing their tasks effectively. Using EJS for templating, along with Express, Node.js, and Postgres, I created a reliable backend system that supports task creation, updates, and organization, enhancing users' productivity.",
-      year: "2021-2022",
-
-      techskills: [
-        {
-          techname: "Node JS",
-        },
-        { techname: "Express JS" },
-        { techname: "React JS" },
-        { techname: "MangoDB" },
-      ],
-    },
-    {
-      companyname: "AgbekeAde",
-      position: "Full Stack Developer",
-      des: "World Capital Quiz: I developed an engaging interactive quiz application that challenges users to test their knowledge of world capitals. This project utilized EJS for dynamic content rendering and was built on a foundation of Node.js, Express, and Postgres, enabling efficient data management and providing users with immediate feedback on their quiz performance.",
-      year: "2021-2022",
-
-      techskills: [
-        {
-          techname: "EJS",
-        },
-        { techname: "Express JS" },
-        { techname: "React JS" },
-        { techname: "Postgres" },
-      ],
-    },
-    {
-      companyname: "Mirrabelle",
-      position: "MERN-Stack Developer",
-      des: "Blog App: I built a feature-rich blogging platform that empowers users to create, edit, and share blog posts. Using React for a responsive user interface, I integrated Node.js, Express, and MongoDB to manage user authentication, content storage, and seamless content delivery. This project allowed me to enhance my skills in managing complex data structures and creating a user-friendly experience.",
-      year: "2021-2022",
-
-      techskills: [
-        {
-          techname: "Node JS",
-        },
-        { techname: "Express JS" },
-        { techname: "React JS" },
         { techname: "MangoDB" },
       ],
     },

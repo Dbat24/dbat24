@@ -12,19 +12,19 @@ const Edu = () => {
     {
       name: "Self-Taught Full-Stack Web Developer",
       year: "2023",
-      des: "Personally trained as a full-stack developer through dedicated study of online resources, including video tutorials and technical documentation. Developed expertise in front-end technologies like HTML, CSS, and JavaScript, as well as back-end tools such as Node.js, Express, and MongoDB/Postgres. Built real-world projects independently, applying a deep understanding of both client and server-side development.",
+      des: "Personally trained as a full-stack developer through dedicated study of online resources, including video tutorials and technical documentation. Developed expertise in front-end technologies like Next.js, React.js, ejs, HTML, CSS, and JavaScript, as well as back-end tools and databases such as Node.js, Express, MongoDB and Postgres. Built real-world projects independently, applying a deep understanding of both client and server-side development.",
     },
     {
       name: "T-Max Web Development Bootcamp",
       degree: "Certificate in Web Development",
       year: "2023",
-      des: "Completed an intensive web development bootcamp focused on full-stack development, including HTML, CSS, JavaScript, React, Node.js, Express, and MongoDB. Gained hands-on experience building dynamic web applications, collaborating in teams, and mastering modern frameworks and development best practices.",
+      des: "Completed an intensive web development bootcamp focused on full-stack development, including HTML, CSS, JavaScript and WordPress. Gained hands-on experience building dynamic web applications, collaborating in teams, and mastering modern frameworks and development best practices.",
     },
     {
       name: "GIZ / Weevil",
       degree: "Certificate in web development",
       year: "2022",
-      des: "Successfully completed an immersive web development bootcamp that emphasized practical coding experience in front-end technologies like HTML, CSS, JavaScript, and frameworks such as React. Additionally, developed a solid foundation in back-end development using Node.js, Express, and databases to deliver fully functional web applications.",
+      des: "Successfully completed an immersive web development bootcamp that emphasized practical coding experience in front-end technologies like HTML, CSS, JavaScript.",
     },
     {
       name: "EntryLevel UI/UX Design",
