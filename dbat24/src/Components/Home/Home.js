@@ -1,7 +1,7 @@
 import React from "react";
 import "./Home.css";
 import Typewriter from "typewriter-effect";
-import DevCv from "../CV/DevCv.pdf";
+import DevCv from "../CV/FULL-STACK WEB DEVELOPER RESUME.pdf";
 import { FaMoon } from "react-icons/fa";
 import { IoIosSunny } from "react-icons/io";
 import { Slide } from "react-awesome-reveal";
@@ -55,7 +55,7 @@ const Home = ({ theme, changeTheme }) => {
               </Link>
             </div>
             <div className="resume-btn">
-              <a href={DevCv} download="Abdulhafis_cv.pdf">
+              <a href={DevCv} download="FULL-STACK WEB DEVELOPER RESUME.pdf">
                 Get Resume
               </a>
             </div>
