@@ -40,7 +40,7 @@ const Testimonial = () => {
       name: "— Travel Blogger",
       position: "CEO",
       des: "I love the interactive map! BatDigital’s Travel Tracker keeps all my travel memories alive with a click.",
-      img: "https://plus.unsplash.com/premium_photo-1683134157126-2f0cfd8ee388?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      img: "https://images.pexels.com/photos/5704720/pexels-photo-5704720.jpeg?auto=compress&cs=tinysrgb&w=400",
     },
   ];
 
