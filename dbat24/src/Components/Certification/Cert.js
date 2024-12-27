@@ -1,5 +1,5 @@
 import React from "react";
-import "./Edu.css";
+import "./Cert.css";
 import {
   VerticalTimeline,
   VerticalTimelineElement,
@@ -7,7 +7,7 @@ import {
 import "react-vertical-timeline-component/style.min.css";
 import { FaGraduationCap } from "react-icons/fa";
 
-const Edu = () => {
+const Cert = () => {
   const data = [
     {
       name: "Self-Taught Full-Stack Web Developer",
@@ -35,29 +35,36 @@ const Edu = () => {
   ];
 
   const colors = [
-    "#1F77B4",
-    "#FF7F0E",
-    "#2CA02C",
-    "#D62728",
-    "#9467BD",
-    "#8C564B",
+    " #282828",
+    " #282828",
+    " #282828",
+    " #282828",
+    " #282828",
+    " #282828",
+    // "#1F77B4",
+    // "#FF7F0E",
+    // "#2CA02C",
+    // "#D62728",
+    // "#9467BD",
+    // "#8C564B",
   ];
-
+  
   return (
     <div>
-      <div className="container edu-section" id="edu">
+      <div className="container cert-section" id="cert">
         <div className="section-title">
           <h5>Certification</h5>
           <span className="line"></span>
         </div>
         <div className="timeline-section">
-          <VerticalTimeline lineColor="#8C564B">
+          <VerticalTimeline lineColor="#4caf50">
             {data.map((item, index) => (
               <VerticalTimelineElement
-                className="vertical-timeline-element--work"
+                className="vertical-timeline-element-work"
                 contentStyle={{ background: colors[index], color: "#fff" }}
                 contentArrowStyle={{
-                  borderRight: "7px solid  rgb(33, 150, 243)",
+                  // borderRight: "7px solid  rgb(33, 150, 243)",
+                  borderRight: "7px solid #4caf50",
                 }}
                 date={item.year}
                 dateClassName="dates"
@@ -79,4 +86,4 @@ const Edu = () => {
   );
 };
 
-export default Edu;
+export default Cert;

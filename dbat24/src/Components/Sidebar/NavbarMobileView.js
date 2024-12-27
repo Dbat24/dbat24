@@ -87,7 +87,7 @@ const NavbarMobileView = ({ theme, changeTheme }) => {
                 offset={-100}
               >
                 <FcReading size={25} />
-                Education
+                Certification
               </Link>
             </li>
             <li className="nav-item-mobileview">

@@ -10,13 +10,19 @@ const ProjectList = ({ name, des, projectlink, techStackUsed }) => {
 
 
   
-  const colors = [
-    "#1F77B4",
-    "#FF7F0E",
-    "#2CA02C",
-    "#D62728",
-    "#9467BD",
-    "#8C564B",
+  const colors = [ 
+    " #282828",
+    " #282828",
+    " #282828",
+    " #282828",
+    " #282828",
+    " #282828",
+    // "#1F77B4",
+    // "#FF7F0E",
+    // "#2CA02C",
+    // "#D62728",
+    // "#9467BD",
+    // "#8C564B",
   ];
 
   return (

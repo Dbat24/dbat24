@@ -1,5 +1,5 @@
 import React from "react";
-import "./WorkExp.css";
+import "./Experience.css";
 import {
   VerticalTimeline,
   VerticalTimelineElement,
@@ -7,7 +7,7 @@ import {
 import "react-vertical-timeline-component/style.min.css";
 import { FcBusiness } from "react-icons/fc";
 
-const WorkExp = () => {
+const Experience = () => {
   const data = [
     {
       companyname: "Dbat24",
@@ -91,30 +91,37 @@ const WorkExp = () => {
   ];
 
   const colors = [
-    "#1F77B4",
-    "#FF7F0E",
-    "#2CA02C",
-    "#D62728",
-    "#9467BD",
-    "#8C564B",
+    " #282828",
+    " #282828",
+    " #282828",
+    " #282828",
+    " #282828",
+    " #282828",
+    // " #615F5F",
+    // "#1F77B4",  
+    // "#FF7F0E",
+    // "#2CA02C",
+    // "#D62728",
+    // "#9467BD",
+    // "#8C564B",
   ];
   return (
-    <div className="container workExp-section" id="exp">
+    <div className="container exp-section" id="exp">
       <div className="section-title">
-        <h5>Work Experience</h5>
+        <h5>Experience</h5>
         <span className="line"></span>
       </div>
       <div className="timeline-section">
-        <VerticalTimeline lineColor="#8C564B">
+        <VerticalTimeline lineColor="#4caf50">
           {data.map((item, index) => (
             <VerticalTimelineElement
-              className="vertical-timeline-element--work"
+              className="vertical-timeline-element-work"
               contentStyle={{ background: colors[index], color: "#fff" }}
               contentArrowStyle={{
-                borderRight: "7px solid  rgb(33, 150, 243)",
+                borderRight: "7px solid  #4caf50",
               }}
               date={item.year}
-              dateClassName="dates"
+              dateClassName= "dates"
               iconStyle={{ background: colors[index], color: "#fff" }}
               icon={<FcBusiness size={30} />}
             >
@@ -128,7 +135,7 @@ const WorkExp = () => {
               <div className="row">
                 {item.techskills.map((tech, index) => (
                   <div
-                    className="col-xl-4 col-lg-4 col-md-6 col-sm-12"
+                    className="col-xl-5 col-lg-5 col-md-6 col-sm-12"
                     key={index}
                   >
                     <div className="tech-skills">
@@ -147,4 +154,4 @@ const WorkExp = () => {
   );
 };
 
-export default WorkExp;
+export default Experience;

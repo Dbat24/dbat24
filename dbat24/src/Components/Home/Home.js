@@ -29,10 +29,9 @@ const Home = ({ theme, changeTheme }) => {
             <Typewriter
               options={{
                 strings: [
-                  "MERN STACK DEVELOPER",
                   "FULL STACK DEVELOPER",
-                  "UI/UX DESIGNER",
-                  "WEB DEVELOPER",
+                  "MERN STACK DEVELOPER",
+                  "TUTOR",
                 ],
                 autoStart: true,
                 loop: true,

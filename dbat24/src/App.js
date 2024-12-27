@@ -3,8 +3,8 @@ import Sidebar from "./Components/Sidebar/Sidebar.js";
 import About from "./Components/About/About.js";
 import TechStack from "./Components/TechStack/TechStack.js";
 import Project from "./Components/Projects/Project.js";
-import WorkExp from "./Components/WorkExp/WorkExp.js";
-import Edu from "./Components/Education/Edu.js";
+import Experience from "./Components/Experience/Experience.js";
+import Cert from "./Components/Certification/Cert.js";
 import Testimonial from "./Components/Testimonial/Testimonial.js";
 import Contact from "./Components/Contact/Contact.js";
 import ScrollToTop from "react-scroll-to-top";
@@ -26,9 +26,9 @@ const App = () => {
         <NavbarMobileView changeTheme={changeTheme} theme={theme}/>
         <Sidebar changeTheme={changeTheme} theme={theme} />
         <About />
-        <WorkExp />
+        <Experience />
         <TechStack />
-        <Edu />
+        <Cert />
         <Project />
         <Testimonial />
         <Contact />
@@ -40,7 +40,7 @@ const App = () => {
         color="white"
         height="20"
         width="20"
-        style={{ borderRadius: "90px", backgroundColor: "#38004c" }}
+        style={{ borderRadius: "90px", backgroundColor: "#615F5F" }}
       />
     </ThemeContext.Provider>
   );

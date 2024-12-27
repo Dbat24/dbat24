@@ -7,7 +7,7 @@
 
 .navbar-header {
   width: 100%;
-  background-color: green;
+  background-color:rgb(97, 95, 95);
   color: white;
   padding: 5px;
 }
@@ -20,7 +20,7 @@
 .mobile-nav {
   height: auto;
   width: 210px;
-  background-color: rgb(80, 133, 2);
+  background-color: #090909;
   /* margin-top: 0px; */
   padding-bottom: 10px;
   padding-top: 10px;
@@ -41,7 +41,7 @@
 
 .nav-item-mobileview .active{
   color: #000;
-  background-color: rgb(78, 160, 146);
+  background-color: #4caf50;
   border-radius: 90px;
   padding: 5px;
   width: 100%;

@@ -1,0 +1,15 @@
+.cert-section {
+  /* margin-left: 15rem; */
+  margin-top: 70px; 
+  margin-bottom: 30px;
+}
+@media screen and (max-width: 1169px){
+  .dates {
+    color: #fff;
+  }
+  }
+  @media screen and (min-width: 1169px){
+  .dates {
+    color: #000;
+  }
+  }

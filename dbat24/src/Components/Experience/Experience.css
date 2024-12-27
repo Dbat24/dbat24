@@ -1,4 +1,4 @@
-.workExp-section {
+.exp-section {
   margin-top: 70px;
   /* margin-left: 15rem; */
 }
@@ -6,7 +6,7 @@
   margin-top: 20px;
 }
 .tech-skills p {
-  background-color: green;
+  background-color: #4caf50;
   border-radius: 90px;
   color: #fff;
   padding: 10px;
@@ -14,11 +14,18 @@
 }
 
 .tech-skills p:hover {
-  background-color: greenyellow;
+  background-color: #45a049;
   cursor: pointer;
-  color: black;
+  color: #000;
+  transition-duration: 1s;
 }
-
+@media screen and (max-width: 1169px){
 .dates {
-  color: black;
+  color: #fff;
+}
+}
+@media screen and (min-width: 1169px){
+.dates {
+  color: #000;
+}
 }

@@ -9,7 +9,7 @@
   margin-top: 8rem;
 }
 .home-content h3 {
-  color: yellowgreen;
+  color: #4caf50;
 }
 
 .home-btn {
@@ -18,7 +18,7 @@
 
 .hire-btn {
   /* background-color:rgb(3, 54, 75); */
-  background-color:#4CAF50;
+  background-color:#4caf50;
   text-align: center;
   width: 180px;
   padding: 10px;
@@ -31,13 +31,16 @@
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 .hire-btn:hover {
-  background-color: rgb(97, 95, 95);
+  /* background-color: rgb(97, 95, 95); */
+  background-color: #45a049;
   width: 250px;
+  color: #000;
   transition-duration: 1s;
 }
 
 .resume-btn {
-  background-color: rgb(41, 41, 241);
+  /* background-color: rgb(41, 41, 241); */
+  background-color: #4caf50;
   text-align: center;
   width: 180px;
   padding: 10px;
@@ -45,13 +48,16 @@
   cursor: pointer;
   margin-top: 10px;
   margin-left: 10px;
+  color: #fff;
   border: 2px solid  #FFFFFF;
   font-size: 17px;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
 .resume-btn:hover {
-  background-color: rgb(97, 95, 95);
+  /* background-color: rgb(97, 95, 95); */
+  background-color: #45a049;
+  color: #000;
   width: 250px;
   transition-duration: 1s;
 }
@@ -65,7 +71,8 @@
   justify-content: center;
   height: 40px;
   width: 40px;
-  background-color: rgb(41, 41, 241);
+  /* background-color: rgb(41, 41, 241); */
+  background-color: rgb(97, 95, 95);
   right: 0;
   margin-left: 10px;
   text-align: center;

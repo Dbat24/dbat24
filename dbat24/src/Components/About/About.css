@@ -15,7 +15,7 @@
   border-radius: 190px;
   /* margin-left: 14rem; */
   margin-top: 40px;
-  border: 2px solid green;
+  border: 2px solid #4caf50;
   object-fit: cover;
 }
 
@@ -31,7 +31,7 @@
   width: 70px;
   height: 3px;
   margin: 10px auto;
-  background-color: green;
+  background-color: #4caf50;
 }
 
 @media (min-width: 700px) {

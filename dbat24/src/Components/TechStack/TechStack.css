@@ -25,7 +25,9 @@
 }
 
 .techstack-content-marked {
-  background-color: tomato;
+  /* background-color: tomato; */
+  background-color: #282828;
+
   color: #fff;
 }
 
@@ -37,7 +39,8 @@
 }
 
 .techstack-content:hover {
-  background-color: rgb(150, 148, 226);
+  /* background-color: rgb(150, 148, 226); */
+  background-color:#45a049;
   cursor: pointer;
   color: #fff;
   transition-duration: 1s;
