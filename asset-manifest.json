@@ -1,21 +1,21 @@
 {
   "files": {
     "main.css": "/dbat24/static/css/main.25a85ebe.css",
-    "main.js": "/dbat24/static/js/main.be925f26.js",
+    "main.js": "/dbat24/static/js/main.bb0e4102.js",
     "static/js/453.652e9c7d.chunk.js": "/dbat24/static/js/453.652e9c7d.chunk.js",
+    "static/media/FULL_STACK_MERN_STACK_WEB_DEVELOPER_RESUME.pdf": "/dbat24/static/media/FULL_STACK_MERN_STACK_WEB_DEVELOPER_RESUME.994a59dbd2fb8d1b79f7.pdf",
     "static/media/softwareEngineer.jpg": "/dbat24/static/media/softwareEngineer.fe3ce3b5c42d3cdde323.jpg",
-    "static/media/FULL-STACK WEB DEVELOPER RESUME.pdf": "/dbat24/static/media/FULL-STACK WEB DEVELOPER RESUME.6dbc056dc854a3beae17.pdf",
     "static/media/slick.svg": "/dbat24/static/media/slick.2630a3e3eab21c607e21.svg",
     "static/media/slick.eot": "/dbat24/static/media/slick.a4e97f5a2a64f0ab1323.eot",
     "static/media/slick.ttf": "/dbat24/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/dbat24/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/dbat24/index.html",
     "main.25a85ebe.css.map": "/dbat24/static/css/main.25a85ebe.css.map",
-    "main.be925f26.js.map": "/dbat24/static/js/main.be925f26.js.map",
+    "main.bb0e4102.js.map": "/dbat24/static/js/main.bb0e4102.js.map",
     "453.652e9c7d.chunk.js.map": "/dbat24/static/js/453.652e9c7d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.25a85ebe.css",
-    "static/js/main.be925f26.js"
+    "static/js/main.bb0e4102.js"
   ]
 }
